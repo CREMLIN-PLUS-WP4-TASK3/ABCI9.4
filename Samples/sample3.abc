@@ -1,0 +1,31 @@
+ $FILE  LSAV=.F., ITEST=0, LREC=.F.  $END                                       
+ SAMPLE INPUT #3  A MONITOR-LIKE STRUCTURE WITH A CUTTING EDGE                  
+ $BOUN  IZL=3, IZR=3  $END                                                      
+ $MESH  DDR=.0005, DDZ=.0005  $END                                              
+ #CAVITYSHAPE                                                                   
+0.00                                                                            
+0.000  0.000                                                                    
+0.020  0.000                                                                    
+0.020  0.010                                                                    
+0.019  0.010                                                                    
+0.019  0.012                                                                    
+0.020  0.012                                                                    
+0.020  0.022                                                                    
+0.000  0.022                                                                    
+0.000  0.000                                                                    
+0.016  0.005                                                                    
+0.016  0.017                                                                    
+0.0165 0.017                                                                    
+0.0165 0.012                                                                    
+0.0175 0.012                                                                    
+0.0175 0.010                                                                    
+0.0165 0.010                                                                    
+0.0165 0.005                                                                    
+0.016  0.005                                                                    
+9999. 9999.                                                                     
+ $BEAM  SIG=0.0020, MROT=0, NBUNCH=2, BSEP=0.02 $END                            
+ $TIME  MT=3, NSHOT=7  $END                                                     
+ $WAKE  LNAPOLY=.T., LCBACK=.F.  $END                                           
+ $PLOT  LCAVIN=.F., LCAVUS=.F., LPLW=.T., LPLE=.T.  $END                        
+ $PRIN  LMATPR=.T., LSVW=.T. $END                                               
+STOP                                                                            

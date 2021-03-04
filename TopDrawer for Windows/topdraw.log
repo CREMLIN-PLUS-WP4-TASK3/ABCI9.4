@@ -1,0 +1,110 @@
+  NEW FRAME
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 7.0 9.0 CENTER SIZE 2.2  'Cavity Shape Input'
+  TITLE 2.0 8.6 SIZE 1.5  'A B C I 9.4 : WAKE POTENTIAL FOR CELL '
+  MORE 'SHAPE(BCELL2)  (S=5mm)                          '
+  TITLE BOTTOM 'Z-axis (m)'
+  TITLE LEFT   'R-axis (m)'
+  TITLE 10.9 8.9 SIZE 1.25 '26/ 7/ 1  18:19:47'
+  TITLE 2.00 8.3 SIZE 1.40 'DDZ= 0.500 mm,  DDR= 1.000 mm'
+  SET LIMITS X  -0.25550E-01  0.53655     Y  -0.13150E-01  0.27615    
+   0.00000E+00  0.00000E+00
+   0.00000E+00  0.11000    
+  JOIN 1 DOTS
+   0.00000E+00  0.11000    
+   0.10000      0.11000    
+   0.10008      0.11000    
+   0.29362      0.23183    
+   0.29382      0.23158    
+   0.29402      0.23134    
+   0.37762      0.13942    
+   0.37788      0.13961    
+   0.37814      0.13978    
+   0.51100      0.15000    
+   0.51100      0.00000E+00
+  JOIN 1 DOTS
+   0.51100      0.00000E+00
+   0.00000E+00  0.00000E+00
+  JOIN 1 DOTDASH
+  NEW FRAME
+Plot #0 ends.
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 7.0 9.0 CENTER SIZE 2.2  'Cavity Shape Used'
+  TITLE 2.0 8.6 SIZE 1.5  'A B C I 9.4 : WAKE POTENTIAL FOR CELL '
+  MORE 'SHAPE(BCELL2)  (S=5mm)                          '
+  TITLE BOTTOM 'Z-axis (m)'
+  TITLE LEFT   'R-axis (m)'
+  TITLE 10.9 8.9 SIZE 1.25 '26/ 7/ 1  18:19:47'
+  TITLE 2.00 8.3 SIZE 1.40 'DDZ= 0.500 mm,  DDR= 1.000 mm'
+  SET LIMITS X  -0.25550E-01  0.53655     Y  -0.13150E-01  0.27615    
+   0.00000E+00  0.00000E+00
+   0.00000E+00  0.11000    
+  JOIN 1 DOTS
+   0.00000E+00  0.11000    
+   0.50000E-03  0.11000    
+   0.10000E-02  0.11000    
+  PLOT
+   0.46500      0.15000    
+   0.46550      0.15000    
+   0.46600      0.15000    
+  PLOT
+   0.51100      0.15000    
+   0.51100      0.00000E+00
+  JOIN 1 DOTS
+   0.51100      0.00000E+00
+   0.00000E+00  0.00000E+00
+  JOIN 1 DOTDASH
+  NEW FRAME
+Plot #1 ends.
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1.75 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 7.0 9.0 CENTER SIZE 2.2  'Wake Potentials'
+  TITLE 2.0 8.6 SIZE 1.50 'A B C I 9.4 : WAKE POTENTIAL FOR CELL '
+  MORE 'SHAPE(BCELL2)  (S=5mm)                          '
+  TITLE BOTTOM 'Distance from Bunch Head S (m)'
+  TITLE LEFT   'Scaled Wake Potential W (S)'
+  TITLE 10.9 8.9 SIZE 1.25 '26/ 7/ 1  18:19:47'
+  TITLE 10.1 9.1 SIZE 1.25 'Cpu Time Used: 1.733E+01(s)'
+  TITLE 2.00 8.3 SIZE 1.40 'MROT= 0,  SIG= 0.500 cm,'
+  MORE '  DDZ= 0.500 mm,  DDR= 1.000 mm'
+  SET LIMITS X   0.00000E+00  0.50000E-01 Y   -1.0000       1.0000    
+   0.00000E+00  0.37267E-05
+   0.50000E-03  0.61136E-05
+   0.10000E-02  0.99295E-05
+   0.25000E-02  0.80000    
+   0.75000E-02  0.80000    
+  JOIN 1 DOTS    
+  TITLE   0.87500E-02  0.80000     DATA SIZE 1.5 'Charge Density'
+   0.00000E+00 -0.39821E-05
+   0.50000E-03 -0.55752E-05
+   0.10000E-02 -0.58365E-05
+   0.25000E-02  0.70000    
+   0.75000E-02  0.70000    
+  JOIN 1 SOLID   
+  TITLE   0.87500E-02  0.70000     DATA SIZE 1.5 'Longitudinal  '
+   0.00000E+00 -0.38940E-05
+   0.50000E-03 -0.57869E-05
+   0.10000E-02 -0.73780E-05
+   0.25000E-02  0.60000    
+   0.75000E-02  0.60000    
+  JOIN 1 DASH    
+  TITLE   0.87500E-02  0.60000     DATA SIZE 1.5 'With Log. Term'
+  TITLE  2.00 0.70 SIZE 1.40 'Longitudinal Wake '
+  TITLE  4.00 0.70 SIZE 1.40 'Min/Max= -7.469E-01/ 0.000E+00 V/pC,     '
+  TITLE  8.70 0.70 SIZE 1.40 'Loss Factor= -5.445E-01 V/pC     '
+  TITLE  2.00 0.47 SIZE 1.40 'With Log. Term    '
+  TITLE  4.00 0.47 SIZE 1.40 'Min/Max= -1.190E+00/ 0.000E+00 V/pC,     '
+  TITLE  8.70 0.47 SIZE 1.40 'Loss Factor= -8.590E-01 V/pC     '
+Plot #2 ends.
+Input file C:\WINDOWS\Profiles\Yong Ho Chin\ÃÞ½¸Ä¯Ìß\bcell2.top ends.

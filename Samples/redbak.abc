@@ -1,0 +1,29 @@
+ $FILE ITEST=0 $END                                                             
+L E P - R F  C A V I T Y                                                        
+ $BOUN $END                                                                     
+ $MESH DDR=.004, DDZ=.004 $END                                                  
+ ##CAVITYSHAPE                                                                  
+0.                                                                              
+0.     0.                                                                       
+0.308  0.                                                                       
+0.308  0.136                                                                    
+0.300  0.136                                                                    
+0.280  0.188                                                                    
+-1.0   -0.01                                                                    
+0.268 0.192                                                                     
+0.108 0.192                                                                     
+ -1.   -0.01                                                                    
+0.096 0.188                                                                     
+0.068 0.144                                                                     
+-1.0   0.01                                                                     
+0.050  0.148                                                                    
+0.050  0.192                                                                    
+0.     0.192                                                                    
+0.     0.                                                                       
+9999. 9999.                                                                     
+ $BEAM  SIG=0.02, MROT=0 $END                                                   
+ $TIME  MT=3 $END                                                               
+ $WAKE  UBT=4.00, LCRBW=T, ZSEP=0.0 $END                                        
+ $PLOT  LCAVIN=T, LCAVUS=F, LPLW=T, LFFT=T, REDUCE=2.0 &END                     
+ $PRIN  $END                                                                    
+STOP                                                                            

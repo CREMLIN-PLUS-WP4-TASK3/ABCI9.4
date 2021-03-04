@@ -1,0 +1,212 @@
+  NEW FRAME
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 7.0 9.0 CENTER SIZE 2.2  'Cavity Shape Input'
+  TITLE 2.0 8.6 SIZE 1.5  'A B C I 9.4 :  SAMPLE INPUT #1  RF GUN'
+  MORE '                                                '
+  TITLE BOTTOM 'Z-axis (m)'
+  TITLE LEFT   'R-axis (m)'
+  TITLE 10.9 8.9 SIZE 1.25 '19/ 3/16  13:43:19'
+  TITLE 2.00 8.3 SIZE 1.40 'DDZ= 0.500 mm,  DDR= 0.500 mm'
+  SET LIMITS X  -0.12500E-01  0.26250     Y  -0.22500E-02  0.47250E-01
+    0.0000       0.0000    
+    0.0000      0.30000E-02
+  JOIN 1 DOTS
+    0.0000      0.30000E-02
+   0.50000E-01  0.30000E-02
+   0.50000E-01  0.43000E-01
+   0.25000      0.45000E-01
+   0.25000       0.0000    
+  JOIN 1 DOTS
+   0.25000       0.0000    
+    0.0000       0.0000    
+  JOIN 1 DOTDASH
+  NEW FRAME
+Plot #0 ends.
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 7.0 9.0 CENTER SIZE 2.2  'Cavity Shape Used'
+  TITLE 2.0 8.6 SIZE 1.5  'A B C I 9.4 :  SAMPLE INPUT #1  RF GUN'
+  MORE '                                                '
+  TITLE BOTTOM 'Z-axis (m)'
+  TITLE LEFT   'R-axis (m)'
+  TITLE 10.9 8.9 SIZE 1.25 '19/ 3/16  13:43:19'
+  TITLE 2.00 8.3 SIZE 1.40 'DDZ= 0.500 mm,  DDR= 0.500 mm'
+  SET LIMITS X  -0.12500E-01  0.26250     Y  -0.22500E-02  0.47250E-01
+    0.0000       0.0000    
+    0.0000      0.30000E-02
+  JOIN 1 DOTS
+    0.0000      0.30000E-02
+   0.50000E-03  0.30000E-02
+   0.10000E-02  0.30000E-02
+  PLOT
+   0.25000      0.45000E-01
+   0.25000       0.0000    
+  JOIN 1 DOTS
+   0.25000       0.0000    
+    0.0000       0.0000    
+  JOIN 1 DOTDASH
+  NEW FRAME
+Plot #1 ends.
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1.75 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 7.0 9.0 CENTER SIZE 2.2  'Wake Potentials'
+  TITLE 2.0 8.6 SIZE 1.50 'A B C I 9.4 :  SAMPLE INPUT #1  RF GUN'
+  MORE '                                                '
+  TITLE BOTTOM 'Distance from Bunch Head S (m)'
+  TITLE LEFT   'Scaled Wake Potential W (S)'
+  TITLE 10.9 8.9 SIZE 1.25 '19/ 3/16  13:43:19'
+  TITLE 10.1 9.1 SIZE 1.25 'Cpu Time Used: 8.783E+00(s)'
+  TITLE 2.00 8.3 SIZE 1.40 'MROT= 0,  SIG= 0.300 cm,'
+  MORE '  DDZ= 0.500 mm,  DDR= 0.500 mm'
+  SET LIMITS X    0.0000       1.2000     Y   -1.0000       1.0000    
+    0.0000      0.37267E-05
+   0.50000E-03  0.84567E-05
+   0.10000E-02  0.18664E-04
+   0.60000E-01  0.80000    
+   0.18000      0.80000    
+  JOIN 1 DOTS    
+  TITLE   0.21000      0.80000     DATA SIZE 1.5 'Charge Density'
+    0.0000      0.58799E-05
+   0.50000E-03  0.24945E-04
+   0.10000E-02  0.73456E-04
+   0.51000      0.17429    
+   0.51050      0.14850    
+   0.51100      0.12010    
+    1.0200      0.99698E-01
+    1.0205      0.74225E-01
+    1.0210      0.47668E-01
+   0.60000E-01  0.70000    
+   0.18000      0.70000    
+  JOIN 1 SOLID   
+  TITLE   0.21000      0.70000     DATA SIZE 1.5 'Longitudinal  '
+    0.0000      0.13830E-05
+   0.50000E-03  0.93156E-05
+   0.10000E-02  0.30357E-04
+   0.51000      0.92793E-01
+   0.51050      0.79064E-01
+   0.51100      0.63940E-01
+    1.0200      0.53081E-01
+    1.0205      0.39518E-01
+    1.0210      0.25379E-01
+   0.60000E-01  0.60000    
+   0.18000      0.60000    
+  JOIN 1 DASH    
+  TITLE   0.21000      0.60000     DATA SIZE 1.5 'With Log. Term'
+  TITLE  2.00 0.70 SIZE 1.40 'Longitudinal Wake '
+  TITLE  4.00 0.70 SIZE 1.40 'Min/Max= -7.350E+00/ 3.455E+00 V/pC,     '
+  TITLE  8.70 0.70 SIZE 1.40 'Loss Factor= -5.006E+00 V/pC     '
+  TITLE  2.00 0.47 SIZE 1.40 'With Log. Term    '
+  TITLE  4.00 0.47 SIZE 1.40 'Min/Max= -1.380E+01/ 3.455E+00 V/pC,     '
+  TITLE  8.70 0.47 SIZE 1.40 'Loss Factor= -9.583E+00 V/pC     '
+  NEW FRAME
+Plot #2 ends.
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1.00 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 3.4 9.0 SIZE 2.2  ' '
+  MORE '  Real Part of Longitudinal Impedance   '
+  TITLE 2.0 8.6 SIZE 1.5  'A B C I 9.4 :  SAMPLE INPUT #1  RF GUN'
+  MORE '                                                '
+  TITLE BOTTOM 'Frequency f (GHz)'
+  TITLE LEFT   '               Real Z2L1  (kW)    '
+  CASE         '                     V V    F     '
+  TITLE 10.9 8.9 SIZE 1.25 '19/ 3/16  13:43:19'
+  TITLE 2.00 8.3 SIZE 1.40 'MROT= 0,  SIG= 0.300 cm,'
+  MORE '  DDZ= 0.500 mm,  DDR= 0.500 mm'
+  SET LIMIT X    0.0000       38.957    
+    0.0000      0.13893E-03
+   0.62431E-01  0.70291E-04
+   0.12486      0.34111E-06
+  SET ORDER X Y 
+    0.0000       0.0000    
+    38.957       0.0000    
+  JOIN DOTDASH 
+  NEW FRAME
+Plot #3 ends.
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1.00 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 3.4 9.0 SIZE 2.2  ' '
+  MORE 'Imaginary Part of Longitudinal Impedance'
+  TITLE 2.0 8.6 SIZE 1.5  'A B C I 9.4 :  SAMPLE INPUT #1  RF GUN'
+  MORE '                                                '
+  TITLE BOTTOM 'Frequency f (GHz)'
+  TITLE LEFT   '               Imag Z2L1  (kW)    '
+  CASE         '                     V V    F     '
+  TITLE 10.9 8.9 SIZE 1.25 '19/ 3/16  13:43:19'
+  TITLE 2.00 8.3 SIZE 1.40 'MROT= 0,  SIG= 0.300 cm,'
+  MORE '  DDZ= 0.500 mm,  DDR= 0.500 mm'
+  SET LIMIT X    0.0000       38.957    
+    0.0000       0.0000    
+   0.62431E-01  0.47836E-02
+   0.12486      0.97147E-02
+  SET ORDER X Y 
+    0.0000       0.0000    
+    38.957       0.0000    
+  JOIN DOTDASH 
+  NEW FRAME
+Plot #4 ends.
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1.00 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 3.4 9.0 SIZE 2.2  ' '
+  MORE '    Real Part of Long.+Log Impedance    '
+  TITLE 2.0 8.6 SIZE 1.5  'A B C I 9.4 :  SAMPLE INPUT #1  RF GUN'
+  MORE '                                                '
+  TITLE BOTTOM 'Frequency f (GHz)'
+  TITLE LEFT   '             Real Z2L+LOG1  (kW)  '
+  CASE         '                   V     V    F   '
+  TITLE 10.9 8.9 SIZE 1.25 '19/ 3/16  13:43:19'
+  TITLE 2.00 8.3 SIZE 1.40 'MROT= 0,  SIG= 0.300 cm,'
+  MORE '  DDZ= 0.500 mm,  DDR= 0.500 mm'
+  SET LIMIT X    0.0000       38.957    
+    0.0000      0.16251    
+   0.62431E-01  0.16244    
+   0.12486      0.16237    
+  SET ORDER X Y 
+    0.0000       0.0000    
+    38.957       0.0000    
+  JOIN DOTDASH 
+  NEW FRAME
+Plot #5 ends.
+ Invalid command "FRAME". Igonred.
+  SET FONT DUPLEX
+  SET SIZE 13 BY 10              
+  SET WINDOW X FROM 2 12 Y FROM 1.00 TO 8
+  SET TICKS SIZE 0.05
+  TITLE 3.4 9.0 SIZE 2.2  ' '
+  MORE ' Imaginary Part of Long.+Log Impedance  '
+  TITLE 2.0 8.6 SIZE 1.5  'A B C I 9.4 :  SAMPLE INPUT #1  RF GUN'
+  MORE '                                                '
+  TITLE BOTTOM 'Frequency f (GHz)'
+  TITLE LEFT   '             Imag Z2L+LOG1  (kW)  '
+  CASE         '                   V     V    F   '
+  TITLE 10.9 8.9 SIZE 1.25 '19/ 3/16  13:43:19'
+  TITLE 2.00 8.3 SIZE 1.40 'MROT= 0,  SIG= 0.300 cm,'
+  MORE '  DDZ= 0.500 mm,  DDR= 0.500 mm'
+  SET LIMIT X    0.0000       38.957    
+    0.0000       0.0000    
+   0.62431E-01  0.47836E-02
+   0.12486      0.97147E-02
+  SET ORDER X Y 
+    0.0000       0.0000    
+    38.957       0.0000    
+  JOIN DOTDASH 
+Plot #6 ends.
+Input file C:\Users\Casa\Desktop\ABCI_Marzo_19_2016\ABCI_64_bit\ABCI_Windows_pack\Gun_Bruno.top ends.

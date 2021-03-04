@@ -1,0 +1,33 @@
+ &FILE  LSAV=.F., ITEST=0, LREC=.F.  &END                                       
+ SAMPLE INPUT #1  A SIMPLE CAVITY STRUCTURE                                     
+ &BOUN  IZL=3, IZR=3  &END                                                      
+ &MESH  DDR=.005, DDZ=.005  &END                                                
+ ##CAVITYSHAPE                                                                  
+0.                                                                              
+0.000 0.000                                                                     
+0.210 0.000                                                                     
+0.210 0.115                                                                     
+0.180 0.135                                                                     
+0.130 0.135                                                                     
+0.070 0.095                                                                     
+-1., 0.009                                                                      
+0.060 0.097                                                                     
+0.060 0.150                                                                     
+0.000 0.150                                                                     
+0.000 0.000                                                                     
+9999. 9999.                                                                     
+ &BEAM  SIG=0.020, MROT=0  &END                                                 
+ &TIME  MT=3  &END                                                              
+ &WAKE  &END                                                                    
+ &PLOT  LCAVIN=.T., LCAVUS=.T., LPLW=.T.  &END                                  
+ &PRIN  LMATPR=.T.  &END                                                        
+CONTINUE                                                                        
+ &BEAM  SIG=0.030, MROT=1  &END                                                 
+ &PLOT  LCAVIN=.F., LCAVUS=.F., LPLW=.T.  &END                                  
+CONTINUE                                                                        
+ &MESH  DDR=.005, 0.0075, 0.005, 0.0075, DDZ=.005,                              
+      RMARK=.070, 0.1300, 0.180, 0.2100  &END                                   
+ &BEAM  SIG=0.020, MROT=0  &END                                                 
+ &WAKE  UBT=8.00 &END                                                           
+ &PLOT  LCAVIN=.F., LCAVUS=.T., LPLW=.T., LFFTL=.T., LSPEC=.T. &END             
+STOP                                                                            

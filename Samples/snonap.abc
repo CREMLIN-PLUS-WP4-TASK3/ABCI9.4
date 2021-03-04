@@ -1,0 +1,39 @@
+ &FILE  LSAV=.F., ITEST=0, LREC=.F.  &END                                       
+ SAMPLE INPUT FOR LNONAP: A COLLIMATOR-LIKE STRUCTURE WITH DOUBLE TEETH                 
+ &BOUN  IZL=3, IZR=3  &END                                                      
+ &MESH  DDR=.002, DDZ=.002, RZ=0.025, 0.015  &END                               
+ @CAVITYSHAPE                                                                   
+0.                                                                              
+0.000 0.000                                                                     
+0.030 0.000                                                                     
+0.000 0.030                                                                     
+0.010 0.000                                                                     
+ES, 0.0000                                                                      
+0.000 0.010                                                                     
+0.020 0.000                                                                     
+> 2                                                                             
+ES, 0.0000                                                                      
+-.020 0.000                                                                     
+0.000 0.010                                                                     
+-.020 0.000                                                                     
+CS, 0.010                                                                       
+0.000 0.020                                                                     
+0.020 0.000                                                                     
+ES, 0.0000                                                                      
+0.000 0.010                                                                     
+0.020 0.000                                                                     
+<                                                                               
+ES, 0.0000                                                                      
+-.020 0.000                                                                     
+0.000 0.010                                                                     
+-RZ1  0.000                                                                     
+0.000 0.130                                                                     
+-RZ2  0.000                                                                     
+0.000 0.000                                                                     
+9999. 9999.                                                                     
+ &BEAM  SIG=0.020, MROT=1  &END                                                 
+ &TIME  MT=3 &END                                                               
+ &WAKE  LNONAP=.T., UBT=1.0  &END                                                       
+ &PLOT  LCAVIN=.T., LCAVUS=.T., LPATH=.T., LPLW=.T., LFFT=.T.  &END                       
+ &PRIN  LMATPR=.T.  &END                                                        
+STOP                                                                            

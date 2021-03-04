@@ -1,0 +1,21 @@
+ &FILE  LSAV=.F., ITEST=0, LREC=.F.  &END                                       
+ Collimator with Ceramic: Epsilon=11, Thickness=1mm, Length=20mm                                   
+ &BOUN  IZL=3, IZR=3  &END                                                      
+ &MESH  DDR=.00005, DDZ=.00005, RSB=0.0003, RST=0.001,
+        ZSL=0.09, ZSR=0.11, DIEL=11.0, CNDC=0.E0  &END                                                
+ ##CAVITYSHAPE                                                                  
+0.                                                                              
+0.000  0.000                                                                     
+0.0025 0.000                                                                     
+0.0025 0.05                                                                     
+0.0200 0.05                                                                    
+0.0200 0.10
+0.0000 0.10                                                                
+0.000 0.000                                                                     
+9999. 9999.                                                                     
+ &BEAM  SIG=0.001, MROT=0, RDRIVE=0.00025  &END                                                 
+ &TIME  MT=3  &END                                                              
+ &WAKE  UBT=0.2 &END                                                                    
+ &PLOT  LCAVIN=.T., LCAVUS=.F., LPLW=.T.,  LFFT=.T., LWNDW=.T. &END                                  
+ &PRIN  LMATPR=.F.  &END                                                        
+STOP                                                             
